@@ -24,7 +24,28 @@ div#footer1{position:fixed;
 			background-color: #009caa;
 			color: white;
 			} 
+a:link {
+    color: white;
+	text-decoration: none;
+}
 
+/* visited link */
+a:visited {
+    color: white;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+	text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: black;
+	text-decoration: none;
+}
 
 </style>
 <head>
@@ -34,11 +55,11 @@ div#footer1{position:fixed;
 
 <div data-role="page" position="fixed">
   <div id="header1" data-role="header" data-position="fixed">
-    <img src="http://i.imgur.com/UTJNdpZ.png" style="height:100px; float:left; padding-left:30px;"/>
-	<a style="font-size:40px; padding-left:30px; top:80px">Libra</a>
-	<a style="font-size:20px; padding-right:30px; position:absolute; top:40px; right:400px; float:right;">HOME</a>
-	<a style="font-size:20px; padding-right:30px; position:absolute; top:40px; right:212px; float:right;">LATEST DEALS</a>
-	<a style="font-size:20px; padding-right:30px; position:absolute; top:40px; right:100px; float:right;">HELP</a>
+    <a href="#home"><img src="http://i.imgur.com/UTJNdpZ.png" style="height:100px; float:left; padding-left:30px;"/></a>
+	<a href="#home" style="font-size:60px; position:absolute; top:12px;">Libra</a>
+	<a href="#home" style="font-size:20px; padding-right:30px; position:absolute; top:40px; left:800px; float:right;">HOME</a>
+	<a href="#deals" style="font-size:20px; padding-right:30px; position:absolute; top:40px; left:912px; float:right;">LATEST DEALS</a>
+	<a href="#help" style="font-size:20px; padding-right:30px; position:absolute; top:40px; left:1100px; float:right;">HELP</a>
 
   </div>
 
